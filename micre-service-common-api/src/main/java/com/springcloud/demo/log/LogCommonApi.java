@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public interface LogCommonApi
 {
     @RequestMapping(method = RequestMethod.GET, value = "/log/operLog")
-    String operLogReceive();
+    public String operLogReceive();
 }
 
