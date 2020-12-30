@@ -1,2 +1,3 @@
+com\springcloud\demo\controller\SequenceMessageCustomer.class
 com\springcloud\demo\LogProviderApplication.class
 com\springcloud\demo\controller\LogReceiveController.class

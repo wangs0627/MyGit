@@ -11,6 +11,7 @@
         <module>micre-service-common-api</module>
         <module>micro-service-log-provider</module>
         <module>micro-service-log-customer</module>
+        <module>micre-service-tools</module>
     </modules>
     <packaging>pom</packaging>
 

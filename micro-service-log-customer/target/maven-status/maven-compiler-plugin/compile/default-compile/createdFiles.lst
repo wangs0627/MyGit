@@ -1,2 +1,4 @@
-com\springcloud\demo\controller\LogPushController.class
+com\springcloud\demo\controller\SequenceMessageProducer$1.class
+com\springcloud\demo\controller\SequenceMessageProducer.class
 com\springcloud\demo\LogCustomerApplication.class
+com\springcloud\demo\controller\LogPushController.class

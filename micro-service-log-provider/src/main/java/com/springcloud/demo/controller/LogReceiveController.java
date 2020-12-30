@@ -2,11 +2,15 @@ package com.springcloud.demo.controller;
 
 import com.alibaba.csp.sentinel.annotation.SentinelResource;
 import com.alibaba.csp.sentinel.slots.block.BlockException;
+import com.alibaba.fastjson.JSON;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import java.util.List;
+import java.util.Random;
 
 @RestController
 @RequestMapping(value="/log")
@@ -35,5 +39,13 @@ public class LogReceiveController
     public String fallback()
     {
         return "内部错误";
+    }
+
+    @GetMapping("/queryList")
+    public String queryList()
+    {
+        List<String> messageList = SequenceMessageCustomer.messageList;
+        String s = JSON.toJSONString(messageList);
+        return s;
     }
 }

@@ -5,17 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32203499-de14-46a7-8031-57df2c2f0952" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/micre-service-common-api/src/main/java/com/springcloud/demo/CommonApiApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micre-service-tools/micre-service-tools.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micre-service-tools/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micre-service-tools/src/main/java/SnowFlake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-service-log-customer/src/main/java/com/springcloud/demo/controller/SequenceMessageProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-service-log-provider/src/main/java/com/springcloud/demo/controller/SequenceMessageCustomer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micre-service-common-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/micre-service-common-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micre-service-common-api/src/main/java/com/springcloud/demo/log/LogCommonApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/micre-service-common-api/src/main/java/com/springcloud/demo/log/LogCommonApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micre-service-common-api/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/micre-service-common-api/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/micre-service-common-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/micre-service-common-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/micre-service-common-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/micre-service-common-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/micre-service-common-api/target/micre-service-common-api-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/micre-service-common-api/target/micre-service-common-api-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-service-log-customer/micro-service-log-customer.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/micro-service-log-customer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/micro-service-log-customer/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/micro-service-log-customer/src/main/java/com/springcloud/demo/LogCustomerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/micro-service-log-customer/src/main/java/com/springcloud/demo/LogCustomerApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/micro-service-log-customer/src/main/java/com/springcloud/demo/controller/LogPushController.java" beforeDir="false" afterPath="$PROJECT_DIR$/micro-service-log-customer/src/main/java/com/springcloud/demo/controller/LogPushController.java" afterDir="false" />
@@ -23,12 +23,20 @@
       <change beforePath="$PROJECT_DIR$/micro-service-log-customer/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/micro-service-log-customer/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/micro-service-log-customer/target/classes/com/springcloud/demo/LogCustomerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/micro-service-log-customer/target/classes/com/springcloud/demo/LogCustomerApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/micro-service-log-customer/target/classes/com/springcloud/demo/controller/LogPushController.class" beforeDir="false" afterPath="$PROJECT_DIR$/micro-service-log-customer/target/classes/com/springcloud/demo/controller/LogPushController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-service-log-customer/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/micro-service-log-customer/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-service-log-customer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/micro-service-log-customer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/micro-service-log-customer/target/micro-service-log-customer-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/micro-service-log-customer/target/micro-service-log-customer-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-service-log-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/micro-service-log-provider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-service-log-provider/src/main/java/com/springcloud/demo/LogProviderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/micro-service-log-provider/src/main/java/com/springcloud/demo/LogProviderApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/micro-service-log-provider/src/main/java/com/springcloud/demo/controller/LogReceiveController.java" beforeDir="false" afterPath="$PROJECT_DIR$/micro-service-log-provider/src/main/java/com/springcloud/demo/controller/LogReceiveController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/micro-service-log-provider/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/micro-service-log-provider/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/micro-service-log-provider/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/micro-service-log-provider/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-service-log-provider/target/classes/com/springcloud/demo/LogProviderApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/micro-service-log-provider/target/classes/com/springcloud/demo/LogProviderApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/micro-service-log-provider/target/classes/com/springcloud/demo/controller/LogReceiveController.class" beforeDir="false" afterPath="$PROJECT_DIR$/micro-service-log-provider/target/classes/com/springcloud/demo/controller/LogReceiveController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-service-log-provider/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/micro-service-log-provider/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-service-log-provider/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/micro-service-log-provider/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/micro-service-log-provider/target/micro-service-log-provider-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/micro-service-log-provider/target/micro-service-log-provider-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,11 +96,14 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/micre-service-common-api/src/main/java/com/springcloud/demo" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring-framework-5.1.x-source" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -128,10 +139,23 @@
       </map>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.aaa.a">
-    <configuration name="LogReceiveController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.springcloud.demo.controller.LogReceiveController" />
-      <module name="micro-service-log-provider" />
+  <component name="RunManager" selected="Spring Boot.LogCustomerApplication">
+    <configuration name="Consumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.springcloud.demo.controller.Consumer" />
+      <module name="micro-service-log-customer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springcloud.demo.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SyncProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.springcloud.demo.controller.SyncProducer" />
+      <module name="micro-service-log-customer" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.springcloud.demo.controller.*" />
@@ -153,17 +177,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="aaa.a" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="micre-service-common-api" />
+    <configuration name="Demo.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="micre-service-tools" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Demo" />
+      <option name="METHOD_NAME" value="main" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LogCustomerApplication.aaa" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="micro-service-log-customer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.springcloud.demo.log.*" />
+          <option name="PATTERN" value="com.springcloud.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.springcloud.demo.log" />
-      <option name="MAIN_CLASS_NAME" value="com.springcloud.demo.log.aaa" />
-      <option name="METHOD_NAME" value="a" />
+      <option name="PACKAGE_NAME" value="com.springcloud.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.springcloud.demo.LogCustomerApplication" />
+      <option name="METHOD_NAME" value="aaa" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -208,8 +242,10 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.LogReceiveController" />
-      <item itemvalue="JUnit.aaa.a" />
+      <item itemvalue="Application.Consumer" />
+      <item itemvalue="Application.SyncProducer" />
+      <item itemvalue="JUnit.Demo.main" />
+      <item itemvalue="JUnit.LogCustomerApplication.aaa" />
       <item itemvalue="Spring Boot.LogProviderApplication-8082" />
       <item itemvalue="Spring Boot.LogProviderApplication-8081" />
       <item itemvalue="Spring Boot.CommonApiApplication" />
@@ -217,9 +253,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.aaa.a" />
         <item itemvalue="Spring Boot.LogCustomerApplication" />
-        <item itemvalue="Application.LogReceiveController" />
+        <item itemvalue="JUnit.LogCustomerApplication.aaa" />
+        <item itemvalue="JUnit.Demo.main" />
+        <item itemvalue="Application.SyncProducer" />
+        <item itemvalue="Application.Consumer" />
       </list>
     </recent_temporary>
   </component>
@@ -267,11 +305,59 @@
       <workItem from="1607914926615" duration="666000" />
       <workItem from="1607928679930" duration="5019000" />
       <workItem from="1608012563205" duration="6406000" />
-      <workItem from="1608024297756" duration="916000" />
+      <workItem from="1608024297756" duration="1870000" />
+      <workItem from="1608083963292" duration="8527000" />
+      <workItem from="1608194819126" duration="658000" />
+      <workItem from="1608261692125" duration="3679000" />
+      <workItem from="1608516245785" duration="4080000" />
+      <workItem from="1608531273362" duration="8253000" />
+      <workItem from="1608543481953" duration="1797000" />
+      <workItem from="1608618674475" duration="671000" />
+      <workItem from="1608703971263" duration="1506000" />
+      <workItem from="1608800853986" duration="1765000" />
+      <workItem from="1608859262866" duration="598000" />
+      <workItem from="1609208020507" duration="14315000" />
+      <workItem from="1609235404656" duration="863000" />
+      <workItem from="1609291384093" duration="8406000" />
+      <workItem from="1609312256730" duration="5295000" />
+      <workItem from="1609321968656" duration="723000" />
     </task>
+    <task id="LOCAL-00001" summary="commit">
+      <created>1608025763714</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608025763714</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/micre-service-common-api/src/main/java/com/springcloud/demo/CommonApiApplication.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/micro-service-log-customer/src/main/java/com/springcloud/demo/controller/SequenceMessageProducer.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/micro-service-log-provider/src/main/java/com/springcloud/demo/controller/SequenceMessageCustomer.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

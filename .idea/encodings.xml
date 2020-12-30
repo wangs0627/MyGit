@@ -2,6 +2,7 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/micre-service-common-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/micre-service-tools/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/micro-service-log-customer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/micro-service-log-provider/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />

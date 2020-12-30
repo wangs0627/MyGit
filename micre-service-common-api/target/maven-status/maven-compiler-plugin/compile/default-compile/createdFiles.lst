@@ -1,3 +1,2 @@
-com\springcloud\demo\CommonApiApplication.class
-com\springcloud\demo\log\aaa.class
 com\springcloud\demo\log\LogCommonApi.class
+com\springcloud\demo\CommonApiApplication.class
