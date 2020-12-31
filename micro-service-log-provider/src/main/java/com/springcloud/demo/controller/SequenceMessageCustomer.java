@@ -11,6 +11,7 @@ import org.springframework.cloud.stream.annotation.EnableBinding;
 import org.springframework.cloud.stream.annotation.StreamListener;
 import org.springframework.cloud.stream.messaging.Sink;
 import org.springframework.messaging.Message;
+import org.springframework.messaging.handler.annotation.Payload;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
@@ -62,8 +63,8 @@ public class SequenceMessageCustomer
         consumer.shutdown();
     }*/
 
-    @StreamListener(value = Sink.INPUT, condition = "headers['TAGS']=='eim_source'")
-    public void testCustomListener(Message message) {
+    @StreamListener(value = Sink.INPUT)
+    public void testCustomListener(@Payload Message message) {
         System.out.println(message.getHeaders().get("TAGS") + " " + message.getPayload().toString());
     }
 

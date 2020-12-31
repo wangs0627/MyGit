@@ -9,7 +9,7 @@ import org.springframework.cloud.stream.messaging.Source;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-@EnableBinding({ Source.class, Sink.class })
+@EnableBinding({ Source.class })
 public class LogCustomerApplication {
 
     public static void main(String[] args) {

@@ -32,8 +32,6 @@ public class LogPushController
     {
         Message message = MessageBuilder.withPayload("Hello,World"+String.valueOf(new Random().nextLong()))
                 .setHeader(RocketMQHeaders.TAGS, "eim_source")
-                .setHeader(RocketMQHeaders.TOPIC, "TopicTest")
-                .setHeader(RocketMQHeaders.KEYS,"KEY")
                 .build();
         this.source.output().send(message);
         return "success";
